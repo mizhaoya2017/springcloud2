@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/mizhaoya2017/springcloud2/blob/master #配置git仓库地址
+          uri: https://github.com/mizhaoya2017/springcloud2.git #配置git仓库地址
           searchPaths: configDir/* #配置仓库路径
           username: mizhaoya2017 #访问git仓库的用户名
           password: mi18514812824 #访问git仓库的用户密码
