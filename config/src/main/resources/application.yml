@@ -13,6 +13,7 @@ spring:
           searchPaths: configDir/* #配置仓库路径
           username: mizhaoya2017 #访问git仓库的用户名
           password: mi18514812824 #访问git仓库的用户密码
+          force-pull:true
       label: master #配置仓库的分支
   rabbitmq:
     host: 127.0.0.1
